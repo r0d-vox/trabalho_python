@@ -1,0 +1,302 @@
+[
+  {
+    "model": "quiz.PerguntaDiaria",
+    "pk": 1,
+    "fields": {
+      "texto_pergunta": "Em relação à Revolução Industrial, qual a principal característica que marcou a Primeira Revolução Industrial?",
+      "explicacao": "A Primeira Revolução Industrial foi marcada pela introdução de máquinas a vapor, revolucionando a produção industrial."
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 1,
+    "fields": {
+      "pergunta": 1,
+      "texto": "A utilização da eletricidade.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 2,
+    "fields": {
+      "pergunta": 1,
+      "texto": "A utilização da máquina a vapor.",
+      "correta": true
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 3,
+    "fields": {
+      "pergunta": 1,
+      "texto": "A introdução da internet.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 4,
+    "fields": {
+      "pergunta": 1,
+      "texto": "O uso de robôs industriais.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.PerguntaDiaria",
+    "pk": 2,
+    "fields": {
+      "texto_pergunta": "A teoria do contrato social, desenvolvida por filósofos como Thomas Hobbes, John Locke e Jean-Jacques Rousseau, está relacionada à:",
+      "explicacao": "O contrato social é uma teoria política que busca explicar a origem do Estado e da sociedade, com base em um pacto ou acordo entre indivíduos e o poder estatal, visando garantir direitos e deveres mútuos. Hobbes, Locke e Rousseau abordaram o contrato de maneiras diferentes, mas todos concordaram que ele fundamenta a relação entre os cidadãos e o Estado."
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 5,
+    "fields": {
+      "pergunta": 2,
+      "texto": "legitimação do poder divino dos reis.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 6,
+    "fields": {
+      "pergunta": 2,
+      "texto": "constituição de um pacto entre os indivíduos e o Estado.",
+      "correta": true
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 7,
+    "fields": {
+      "pergunta": 2,
+      "texto": "defesa da imposição de normas religiosas no Estado.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 8,
+    "fields": {
+      "pergunta": 2,
+      "texto": "criação de uma sociedade sem nenhuma forma de governo.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 9,
+    "fields": {
+      "pergunta": 2,
+      "texto": "transformação da propriedade privada em bem comum.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.PerguntaDiaria",
+    "pk": 3,
+    "fields": {
+      "texto_pergunta": "A mobilidade social refere-se ao:",
+      "explicacao": "A mobilidade social envolve a possibilidade de um indivíduo ou grupo social mudar de posição ou classe dentro da estrutura social, podendo ser ascendente (subir na hierarquia social) ou descendente (descer na hierarquia)."
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 10,
+    "fields": {
+      "pergunta": 3,
+      "texto": "aumento da desigualdade entre os grupos sociais.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 11,
+    "fields": {
+      "pergunta": 3,
+      "texto": "capacidade de uma pessoa ou grupo alterar sua posição na estrutura social.",
+      "correta": true
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 12,
+    "fields": {
+      "pergunta": 3,
+      "texto": "construção de um novo sistema econômico que elimina a classe trabalhadora.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 13,
+    "fields": {
+      "pergunta": 3,
+      "texto": "estabilidade das classes sociais ao longo do tempo.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 14,
+    "fields": {
+      "pergunta": 3,
+      "texto": "persistência dos valores tradicionais em todas as esferas da vida social.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.PerguntaDiaria",
+    "pk": 4,
+    "fields": {
+      "texto_pergunta": "O conceito de “capital cultural” proposto por Pierre Bourdieu se refere a:",
+      "explicacao": "Pierre Bourdieu desenvolveu o conceito de 'capital cultural' para descrever os conhecimentos, habilidades, gostos e formas de educação que podem ser valorizados na sociedade e contribuir para a ascensão social de um indivíduo."
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 15,
+    "fields": {
+      "pergunta": 4,
+      "texto": "a riqueza material acumulada pelas classes dominantes.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 16,
+    "fields": {
+      "pergunta": 4,
+      "texto": "os conhecimentos e habilidades que ajudam os indivíduos a ascender socialmente.",
+      "correta": true
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 17,
+    "fields": {
+      "pergunta": 4,
+      "texto": "os bens culturais de uma sociedade que não estão acessíveis às classes populares.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 18,
+    "fields": {
+      "pergunta": 4,
+      "texto": "a distribuição desigual de recursos materiais entre as classes sociais.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 19,
+    "fields": {
+      "pergunta": 4,
+      "texto": "os costumes e tradições que formam a identidade nacional.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.PerguntaDiaria",
+    "pk": 5,
+    "fields": {
+      "texto_pergunta": "O conceito de “sociedade de classes” de Karl Marx implica que:",
+      "explicacao": "Para Marx, a história da humanidade é uma história de lutas de classes, em que as relações de produção geram desigualdades entre os grupos sociais, e a luta entre essas classes é o principal motor das transformações sociais."
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 20,
+    "fields": {
+      "pergunta": 5,
+      "texto": "a sociedade é caracterizada por uma ausência de desigualdade social.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 21,
+    "fields": {
+      "pergunta": 5,
+      "texto": "a luta de classes é o motor da história e das mudanças sociais.",
+      "correta": true
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 22,
+    "fields": {
+      "pergunta": 5,
+      "texto": "a solidariedade entre os grupos sociais é fundamental para a coesão social.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 23,
+    "fields": {
+      "pergunta": 5,
+      "texto": "as classes sociais são fluidas e não têm uma estrutura rígida.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 24,
+    "fields": {
+      "pergunta": 5,
+      "texto": "a divisão de trabalho é a causa das desigualdades sociais.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.PerguntaDiaria",
+    "pk": 6,
+    "fields": {
+      "texto_pergunta": "Em relação à estratificação social, o termo 'mobilidade social' refere-se:",
+      "explicacao": "Mobilidade social é a mudança na posição de um indivíduo ou grupo na hierarquia social, podendo ser ascendente (quando a pessoa ou grupo sobe na hierarquia) ou descendente (quando desce)."
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 25,
+    "fields": {
+      "pergunta": 6,
+      "texto": "à imobilidade das classes sociais em sistemas democráticos.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 26,
+    "fields": {
+      "pergunta": 6,
+      "texto": "à capacidade de um indivíduo ou grupo de ascender ou descer na hierarquia social.",
+      "correta": true
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 27,
+    "fields": {
+      "pergunta": 6,
+      "texto": "à definição de um sistema de castas fixas e imutáveis.",
+      "correta": false
+    }
+  },
+  {
+    "model": "quiz.Alternativa",
+    "pk": 28,
+    "fields": {
+      "pergunta": 6,
+      "texto": "à ausência de classes sociais em uma sociedade.",
+      "correta": false
+    }
+  }
+]
